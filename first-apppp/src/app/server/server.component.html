@@ -1,0 +1,5 @@
+<!-- <h2>Server Component</h2> -->
+<p [ngStyle]="{backgroundColor: getColor()}"
+   [ngClass]="{statusText: serverStatus === 'online'}" 
+   class="textPadding"
+>{{ 'Server' }} with ID {{ serverId }} is {{ getStatus() }}</p>
